@@ -25,7 +25,7 @@ const routes: Routes = [
     component: OfferingBComponent,
   },
   {
-    path: 'add-user',
+    path: 'add-user/:offeringType',
     component: AddUserComponent,
   }
 ];

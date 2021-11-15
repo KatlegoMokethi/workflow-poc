@@ -14,6 +14,6 @@ export class OfferingAComponent implements OnInit {
   }
 
   navigateToAddUser(): void {
-    this.router.navigate(['/add-user', { queryParams: { offeringType: 'OfferingA' } }]);
+    this.router.navigate(['/add-user/OfferingA']);
   }
 }

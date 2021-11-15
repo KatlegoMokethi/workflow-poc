@@ -13,11 +13,7 @@ export class AddUserComponent implements OnInit {
   constructor(private currentRoute: ActivatedRoute) { }
 
   ngOnInit(): void {
-    this.currentRoute.queryParams
-        .subscribe(params => {
-            this.offeringType = params['offeringType']
-    });
-
+    this.offeringType = this.currentRoute.snapshot.params['offeringType'];
     console.log(this.offeringType);
   }
 
