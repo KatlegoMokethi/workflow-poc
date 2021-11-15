@@ -9,6 +9,7 @@ import { OnboardingComponent } from './pages/onboarding/onboarding.component';
 import { OfferingAComponent } from './pages/offering-a/offering-a.component';
 import { OfferingBComponent } from './pages/offering-b/offering-b.component';
 import { AddUserComponent } from './pages/add-user/add-user.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AddUserComponent } from './pages/add-user/add-user.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
